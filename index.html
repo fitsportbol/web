@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina_web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo"><img src="imagenes/logoS-removebg-preview.png" alt=""></a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+
+                <img src="imagenes/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="https://maps.app.goo.gl/JsUN7J98f5275euG7">Ubicacion</a></li>
+                    <li><a href="#" id="contacto">Contactos</a></li>
+                </ul>
+            </nav>
+        
+            <script src="script.js"></script>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="imagenes/car.svg" id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content container">
+            <div class="video-container" id="video-container">
+                <video id="my video" autoplay loop muted>
+                    <source src="video/video-publicitario.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="offer-text">¡Aprovecha nuestra oferta exclusiva!</div>
+                <div class="best-clothes">Descuento del 50% en toda la tienda por tiempo limitado. 
+                                          Renueva tu guardarropa con nuestras prendas de alta calidad 
+                                          a precios inigualables. Además, disfruta de envío gratuito en pedidos 
+                                          superiores a 100bs y atención al cliente 24/7. Usa el código OFERTA50
+                                          al pagar. ¡Compra ahora y luce espectacular!</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="imagenes/imagen8.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>New Balance</h3>
+                <p>Talla</p>
+                <a href="#" class="btn-2">S - M - L</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="imagenes/imagen6.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Reebok Cals</h3>
+                <p>Talla</p>
+                <a href="#" class="btn-2">S - M - L</a>
+            </div>
+        </div>
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="imagenes/imagen17h.jpg" alt="">
+            </div>
+            <div class="ofert-txt">
+                <h3>Conjunto NIKE</h3>
+                <P>Talla</P>
+                <a href="#" class="btn-2">S - M - L</a>
+            </div>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+        <h2>Productos</h2>
+
+        <div class="product-content">
+            <div class="product">
+                <img src="imagenes/imagen5.jpg" alt="">
+                <div class="product-txt">
+                    <h3>COCOT</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">45.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/imagen16.jpg" alt="">
+                <div class="product-txt">
+                    <h3>NIKE</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">58.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/imagen7.jpg" alt="">
+                <div class="product-txt">
+                    <h3>PUMA</h3>
+                    <p>calidad premium</p>
+                    <p class="precio">58.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/imagen20.jpg" alt="">
+                <div class="product-txt">
+                    <h3>MONTAGNE</h3>
+                    <p>calidad Brasilera</p>
+                    <p class="precio">40.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/imagen9.jpg" alt="">
+                <div class="product-txt">
+                    <h3>MONTAGNE</h3>
+                    <p>calidad Brasilera</p>
+                    <p class="precio">45.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/imagen14.jpg" alt="">
+                <div class="product-txt">
+                    <h3>MONTAGNE</h3>
+                    <p>calidad Brasilera</p>
+                    <p class="precio">40.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/imagen10.jpg" alt="">
+                <div class="product-txt">
+                    <h3>CONJUNTO DEPORTIVO</h3>
+                    <p>calidad nacional</p>
+                    <p class="precio">100.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="imagenes/imagen15.jpg" alt="">
+                <div class="product-txt">
+                    <h3>CONJUNTO DEPORTIVO</h3>
+                    <p>calidad nacional</p>
+                    <p class="precio">100.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="imagenes/imagen11.jpg" alt="">
+                <div class="product-txt">
+                    <h3>CONJUNTO DEPORTIVO</h3>
+                    <p>calidad nacional</p>
+                    <p class="precio">100.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/r1.jpg" alt="">
+                <div class="product-txt">
+                    <h3>STONCH</h3>
+                    <p>INDUSTRIA CHINA</p>
+                    <p class="precio">250.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/R2.jpg" alt="">
+                <div class="product-txt">
+                    <h3>KELVIN</h3>
+                    <p>INDUSTRIA AMERICANA</p>
+                    <p class="precio">200.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="imagenes/R3.jpg" alt="">
+                <div class="product-txt">
+                    <h3>STONCH</h3>
+                    <p>INDUSTRIA CHINA</p>
+                    <p class="precio">350.00bs</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar al carrito</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section class="icons container">
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="imagenes/i1.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>¡COLECCIONA NUESTRAS MEJORES PRENDAS DEPORTIVAS
+                    ¡VISTETE A LA MODA!.</h3>
+                <p>Queremos que tengas la mejor sensacion en tu closet</p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="imagenes/i2.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>¡QUISIERA LUCIR IMPECABLE EN EL GIMNASIO?</h3>
+                <p>nuestras prendas deportivas son tu mejor aliado en el gimnasio y en casa. 
+                    ¡Y lo mejor de todo es que resisten perfectamente el planchado!.</p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="imagenes/i3.svg" alt="">
+            </div>
+            <div class="icon-txt">
+                <h3>¡LAVA, USA, REPITE!</h3>
+                <p>Nuestras prendas deportivas están hechas para resistir el ritmo intenso de tu estilo de vida activo, 
+                    asegurando que siempre estés listo para el próximo desafío. </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog container">
+        <div class="blog-1">
+            <img src="imagenes/imagen18h.jpg" alt="">
+            <h3>Beetles</h3>
+            <p>Esta hecha de suplex termico, la cual esta compuesta
+               de un 95% de polyester y 5% de spandex
+               lo que brinda una sensacion de comodidad
+               y satisfaccion, al ejersitarte.</p>
+        </div>
+
+        <div class="blog-1">
+            <img src="imagenes/imagen13.jpg" alt="">
+            <h3>Calzas con diseños</h3>
+            <p>Esta hecha de suplex jaspedo,compuesta
+                de un 95% de polyester y 5% de spandex
+                lo que brinda una sensacion de comodidad
+                y satisfaccion, al ejersitarte junto con 
+                un diseño llamativo y a la moda.</p>
+        </div>
+
+        <div class="blog-1">
+            <img src="imagenes/imagen14.jpg" alt="">
+            <h3>Calzas lisas</h3>
+            <p>Esta hecho de algodon frizado compuesta por
+               un 60% de algodon y un 40% de polyester,
+               acolchonada y comoda, perfectas para la temporadas
+               imbierno y otoño.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scrip.js"></script>
+</body>
+</html>
